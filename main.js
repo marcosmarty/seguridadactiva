@@ -1,0 +1,1 @@
+let animado=document.querySelectorAll(".animado");function mostrarScroll(){let o=document.documentElement.scrollTop;for(var a=0;a<animado.length;a++){animado[a].offsetTop-500<o&&(animado[a].style.opacity=1,animado[a].classList.add("mostrarArriba"))}}window.addEventListener("scroll",mostrarScroll);
